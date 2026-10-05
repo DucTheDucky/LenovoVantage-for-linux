@@ -30,7 +30,26 @@ Then I'll make a basic window that shows some real information and build from th
 
 - [x] Write this README
 - [ ] Check what my laptop supports on Linux
-- [ ] Make the first working window
+  - [ ] Note the laptop model, BIOS, distro, and kernel
+  - [ ] Check battery info, temperatures, and fan readings
+  - [ ] Check conservation mode and performance profiles
+  - [ ] Save what works, what's missing, and what's untested
+- [ ] Make the first working interface
+  - [ ] Choose the language and TUI library
+  - [ ] Make a basic TUI
+  - [ ] Add keyboard navigation and a quit key
+  - [ ] Read real laptop data
+  - [ ] Show and refresh the readings
+  - [ ] Handle unavailable readings
 - [ ] Get one setting working
+  - [ ] Pick a supported setting
+  - [ ] Show its current value
+  - [ ] Add a control in the TUI
+  - [ ] Handle permissions and failed changes
+  - [ ] Verify the change and restore the original value
+- [ ] Share the first runnable version
+  - [ ] Add install and run instructions
+  - [ ] Add a TUI screenshot
+  - [ ] List tested features and known issues
 
 Inspired by Lenovo Vantage. Just a personal project for now.
